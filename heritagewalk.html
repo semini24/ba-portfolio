@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="A Business Analyst and UX case study of HeritageWalk Sri Lanka: my requirements analysis, Figma designs and testing contributions across navigation, digital guide, facilities and safety.">
+  <title>HeritageWalk | Business Analysis Case Study — Semini Premarathna</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="heritagewalk.css">
+  <script src="heritagewalk.js" defer></script>
+</head>
+<body class="heritage-page">
+<a class="skip-link" href="#case-main">Skip to case study</a>
+<div class="scroll-progress" id="caseScrollProgress" aria-hidden="true"></div>
+<header class="site-header case-header">
+  <div class="container nav-shell">
+    <a class="brand" href="index.html#work" aria-label="Back to Semini's portfolio"><span class="brand-icon">S<span class="brand-dot">.</span></span><span class="brand-name">SEMINI<span> / case study</span></span></a>
+    <nav class="case-nav" aria-label="Case study navigation"><a href="#challenge">The challenge</a><a href="#contribution">My work</a><a href="#screens">Screens</a><a href="#validation">Evidence</a></nav>
+    <div class="nav-actions"><button class="theme-toggle" id="caseThemeToggle" type="button" aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true">◐</span></button><a href="index.html#work" class="case-back">← Portfolio</a></div>
+  </div>
+</header>
+<main id="case-main">
+  <section class="case-hero">
+    <div class="case-ambient ambient-one" aria-hidden="true"></div><div class="case-ambient ambient-two" aria-hidden="true"></div>
+    <div class="container case-hero-layout">
+      <div class="case-hero-copy" data-reveal>
+        <div class="case-overline"><span class="case-sparkle">✳</span> FEATURED CASE STUDY <span class="case-overline-sep">/</span> 2026</div>
+        <h1>Heritage<span class="case-green">Walk.</span><br><span class="case-outline">Sri Lanka</span></h1>
+        <p class="case-lede">Exploring how user research, requirements, wireframes and testing shape a heritage-travel experience — with a clear view of my individual BA and UX contribution.</p>
+        <div class="case-hero-chips"><span>Requirements analysis</span><span>Figma / wireframes</span><span>Functional &amp; usability testing</span></div>
+        <div class="case-hero-actions"><a href="#contribution" class="button case-button-primary">Explore my contribution <span aria-hidden="true">↗</span></a><a href="https://github.com/semini24/HCI_Y3S2_HeritageWalk_mobileapp" class="button case-button-ghost" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></div>
+        <p class="case-role-note"><strong>My assigned feature areas:</strong> Navigation, Digital Guide, Facilities &amp; Safety. <span>My activities: requirements analysis, Figma/wireframe design and testing. Flutter development was completed by other team members.</span></p>
+      </div>
+      <div class="case-hero-stage" aria-label="Preview of HeritageWalk Android screens" data-reveal>
+        <div class="case-stage-orbit"></div><span class="case-stage-sticker">From user needs<br><b>to real screens ✳</b></span>
+        <div class="case-phone phone-back"><img src="assets/heritagewalk/explore.webp" alt="Explore screen displaying heritage places in Sri Lanka" width="390" height="840"></div>
+        <div class="case-phone phone-front"><img src="assets/heritagewalk/navigation.webp" alt="Navigation screen with map route from a current location to a heritage site" width="390" height="840"></div>
+        <div class="case-stage-tag">FLUTTER <span>+</span> FIREBASE <span>+</span> OPENSTREETMAP</div>
+      </div>
+    </div>
+    <div class="container case-hero-bottom"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span><span>01 / 06</span></div>
+  </section>
+  <section class="case-metrics-section" aria-label="Team project evidence at a glance">
+    <div class="container case-metrics-grid">
+      <div class="case-metric" data-reveal><strong>30</strong><span>Initial research responses</span><small>Group user research, Milestone 01</small></div>
+      <div class="case-metric" data-reveal><strong>06</strong><span>Evidence-based user requirements</span><small>Mapped into design decisions</small></div>
+      <div class="case-metric" data-reveal><strong>22/22</strong><span>Functional test cases passed</span><small>Reported team test results</small></div>
+      <div class="case-metric" data-reveal><strong>10</strong><span>Usability questionnaire submissions</span><small>Self-reported, not observed tests</small></div>
+    </div>
+  </section>
+  <section class="case-section" id="challenge">
+    <div class="container case-split">
+      <div class="case-heading-col" data-reveal><div class="case-kicker">01 / THE CHALLENGE</div><h2>Great places.<br><em>Scattered information.</em></h2><span class="case-deco-star" aria-hidden="true">✳</span></div>
+      <div class="case-copy-col" data-reveal>
+        <p class="case-lead">Visitors exploring Sri Lanka's heritage often need to switch between sources for destination information, route planning, facilities, and safety assistance.</p>
+        <p>The team set out to bring heritage discovery, tour planning, route previews, historical guidance, and location-based support into one mobile experience. The solution was designed for tourists, local visitors, and people interested in cultural sites.</p>
+        <div class="case-insight"><span class="case-insight-symbol">✦</span><div><strong>Research signal</strong><p>18 of 30 initial survey respondents (60%) rated personalized itinerary planning 4 or 5 out of 5. Participants also highlighted route efficiency, historical information, facilities, and safety needs.</p><small>Source: Milestone 02 report, research recap.</small></div></div>
+        <div class="case-stakeholders"><h3>Stakeholders considered</h3><div><span>Tourists &amp; visitors</span><span>Local users</span><span>Heritage-site visitors</span><span>Tourism service providers</span><span>System administrators</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="case-section case-role-section" id="contribution">
+    <div class="container">
+      <div class="case-section-heading" data-reveal><div><div class="case-kicker">02 / MY RESPONSIBILITIES</div><h2>My work, <em>clearly defined.</em></h2></div><p>In this four-member university project, I worked on requirements analysis, Figma/wireframe design, and functional and usability testing for navigation, digital guidance, nearby facilities, and safety. I did not develop the Flutter features.</p></div>
+      <div class="case-my-activities" data-reveal aria-label="My confirmed contribution areas">
+        <div><span class="activity-icon" aria-hidden="true">01</span><strong>Requirements analysis</strong><p>Identified and mapped user needs to app functions and screens.</p></div>
+        <div><span class="activity-icon" aria-hidden="true">02</span><strong>Figma &amp; wireframes</strong><p>Helped translate requirements into interface structures and user flows.</p></div>
+        <div><span class="activity-icon" aria-hidden="true">03</span><strong>Testing &amp; evaluation</strong><p>Participated in functional and usability testing to assess the experience.</p></div>
+      </div>
+      <p class="case-boundary" data-reveal><strong>Role clarity:</strong> Flutter application development was not part of my individual contribution; implementation screenshots show the final collaborative product.</p>
+      <div class="case-feature-grid">
+        <article class="case-feature" data-reveal><div class="case-feature-top"><span>01</span><span>EV02 · EV03</span></div><div class="case-feature-icon">⌖</div><h3>Map navigation</h3><p>Worked on navigation-related requirements, Figma screen structure, and test evaluation for destination selection, current location, route previews, travel modes, and distance/time display.</p><div class="case-feature-bottom"><span>Requirements · Figma · Testing</span><a href="#screens">See screen ↗</a></div></article>
+        <article class="case-feature" data-reveal><div class="case-feature-top"><span>02</span><span>EV04</span></div><div class="case-feature-icon">▤</div><h3>Digital guide</h3><p>Helped translate the need for accessible historical content into a Digital Guide screen with images, expandable information and a demo-only audio interface; evaluated the screen during testing.</p><div class="case-feature-bottom"><span>EV04 · Wireframes · Testing</span><a href="#screens">See screen ↗</a></div></article>
+        <article class="case-feature" data-reveal><div class="case-feature-top"><span>03</span><span>EV06</span></div><div class="case-feature-icon">◎</div><h3>Nearby facilities</h3><p>Analyzed the need to find nearby services and contributed to Figma designs and testing of category filters, radius selection, and location-based facilities discovery.</p><div class="case-feature-bottom"><span>Requirements · Filters · Testing</span><a href="#screens">See screen ↗</a></div></article>
+        <article class="case-feature" data-reveal><div class="case-feature-top"><span>04</span><span>EV05</span></div><div class="case-feature-icon">✳</div><h3>Safety &amp; emergency</h3><p>Helped define and design accessible emergency-support interactions, including contact listings, call actions, location sharing, and safety information, and evaluated them through testing.</p><div class="case-feature-bottom"><span>Safety UX · Figma · Testing</span><a href="#screens">See screen ↗</a></div></article>
+      </div>
+      <p class="case-scope-footnote">Feature ownership follows the workload allocation in the submitted milestone reports. Individual activity details were confirmed separately: requirements analysis, Figma/wireframe design, and functional/usability testing (not Flutter coding). Team-wide research and testing totals are group results.</p>
+    </div>
+  </section>
+  <section class="case-section case-process-section" id="design">
+    <div class="container">
+      <div class="case-section-heading" data-reveal><div><div class="case-kicker">03 / FROM RESEARCH TO VALIDATION</div><h2>Requirements <em>into reality.</em></h2></div><p>The user-needs-to-solution chain below shows BA thinking, while distinguishing my analysis/design/testing work from the team’s implementation.</p></div>
+      <div class="case-process-steps" data-reveal>
+        <div><b>01</b><h3>Discover</h3><p>Collect and review user needs</p></div><div><b>02</b><h3>Define</h3><p>Translate findings into requirements</p></div><div><b>03</b><h3>Design</h3><p>Sketches, wireframes and prototypes</p></div><div><b>04</b><h3>Implement</h3><p>Flutter features built by the project team</p></div><div><b>05</b><h3>Validate</h3><p>Functional and usability evaluation</p></div>
+      </div>
+      <div class="case-mapping-panel" data-reveal aria-label="Example requirement-to-solution flow for the digital guide">
+        <div class="case-mapping-heading"><div><span>MY BA WORKFLOW / EXAMPLE: DIGITAL GUIDE</span><h3>From a research need to a tested screen</h3></div><span class="case-mapping-pill">EV04 · TC07–TC08</span></div>
+        <div class="case-mapping-flow" role="list">
+          <div role="listitem" class="case-mapping-step"><span>01 / USER PROBLEM</span><strong>Scattered heritage information</strong><p>Visitors need clear historical details while exploring a site.</p></div>
+          <span class="case-mapping-arrow" aria-hidden="true">→</span>
+          <div role="listitem" class="case-mapping-step"><span>02 / REQUIREMENT</span><strong>EV04 — digital content</strong><p>Present historical information in a suitable, accessible format.</p></div>
+          <span class="case-mapping-arrow" aria-hidden="true">→</span>
+          <div role="listitem" class="case-mapping-step"><span>03 / SOLUTION DESIGN</span><strong>Digital Guide UI</strong><p>Place details, expandable text, and a demo audio control.</p></div>
+          <span class="case-mapping-arrow" aria-hidden="true">→</span>
+          <div role="listitem" class="case-mapping-step"><span>04 / TEAM OUTPUT</span><strong>Android screen</strong><p>Implemented by the development team using Flutter.</p></div>
+          <span class="case-mapping-arrow" aria-hidden="true">→</span>
+          <div role="listitem" class="case-mapping-step"><span>05 / VALIDATION</span><strong>TC07–TC08</strong><p>Group test results record both digital-content tests as passed.</p></div>
+        </div>
+        <p class="case-mapping-note"><strong>What this demonstrates:</strong> I contributed to requirements analysis, wireframing and testing. The screenshot’s audio player is labelled “Demo audio guide — UI preview only”; it does not demonstrate real recorded-audio playback.</p>
+      </div>
+      <div class="case-trace-panel" data-reveal>
+        <div class="case-panel-heading"><div><span>TRACEABILITY IN PRACTICE</span><h3>User needs → features → verification</h3></div><span class="case-panel-symbol" aria-hidden="true">↗</span></div>
+        <div class="case-table-scroll"><table class="case-table"><thead><tr><th>Requirement</th><th>What users needed</th><th>Relevant interface</th><th>Verification / evidence</th></tr></thead><tbody>
+          <tr><td>EV02–EV03</td><td>Multi-stop routes plus distance and estimated time</td><td>Navigation / Route</td><td>Route functional tests TC15–TC16</td></tr>
+          <tr><td>EV04</td><td>Digital historical information</td><td>Place Details / Digital Guide</td><td>Digital content tests TC07–TC08</td></tr>
+          <tr><td>EV05</td><td>Emergency and location-based safety support</td><td>Emergency Support</td><td>Safety testing and UT07 feedback</td></tr>
+          <tr><td>EV06</td><td>Nearby useful facilities</td><td>Nearby Facilities</td><td>Facilities test TC19 and UT07 feedback</td></tr>
+        </tbody></table></div>
+        <p class="case-table-note">Requirement identifiers and test mappings follow the team milestone reports. They describe project traceability, not individual ownership of every requirement.</p>
+      </div>
+      <div class="case-design-links" data-reveal>
+        <a href="https://www.figma.com/design/ZQuLCneGaBl8sNQxhKl276/Untitled?node-id=1003-2&p=f" target="_blank" rel="noopener noreferrer"><span>01 / FIGMA</span><strong>Wireframes &amp; interface designs</strong><span class="case-link-arrow">↗</span></a>
+        <a href="https://www.figma.com/proto/5ZQb32WmNfrIFO96GkjMmt/Untitled?node-id=0-1" target="_blank" rel="noopener noreferrer"><span>02 / FIGMA</span><strong>Low-fidelity prototype</strong><span class="case-link-arrow">↗</span></a>
+        <a href="https://www.figma.com/proto/oaVze5ga1xlbgUyQX43aJ3/Untitled?node-id=8-212&starting-point-node-id=8%3A212" target="_blank" rel="noopener noreferrer"><span>03 / FIGMA</span><strong>High-fidelity prototype</strong><span class="case-link-arrow">↗</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="case-section case-screens-section" id="screens">
+    <div class="container">
+      <div class="case-section-heading" data-reveal><div><div class="case-kicker">04 / WORKING APPLICATION</div><h2>Built, not just <em>imagined.</em></h2></div><p>Seven real Android screenshots, including the Digital Guide screen you provided. Select any image to enlarge it.</p></div>
+      <div class="case-gallery" role="list">
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="0" aria-label="Enlarge Home screen"><img src="assets/heritagewalk/home.webp" alt="HeritageWalk Home screen with exploration actions and featured places" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>01 / APP OVERVIEW</span><h3>Home &amp; quick actions</h3><p>Project-wide screen</p></div></div>
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="1" aria-label="Enlarge Explore screen"><img src="assets/heritagewalk/explore.webp" alt="HeritageWalk Explore screen with search and heritage location cards" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>02 / APP OVERVIEW</span><h3>Explore heritage places</h3><p>Project-wide screen</p></div></div>
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="2" aria-label="Enlarge Navigation screen"><img src="assets/heritagewalk/navigation.webp" alt="Navigation screen with destination selector, GPS route and travel mode controls" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>03 / MY AREA</span><h3>Route &amp; navigation</h3><p>Route preview and current location</p></div></div>
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="3" aria-label="Enlarge Digital Guide screen"><img src="assets/heritagewalk/digital-guide.webp" alt="Digital Guide for Abhayagiri Dagoba showing place image, expandable history sections, and an audio demo UI that does not play a recorded guide" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>04 / MY AREA</span><h3>Digital Guide</h3><p>Historical content &amp; demo audio UI</p></div></div>
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="4" aria-label="Enlarge Nearby Facilities screen"><img src="assets/heritagewalk/facilities.webp" alt="Nearby Facilities screen with category filters, search radius, and map" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>05 / MY AREA</span><h3>Nearby facilities</h3><p>Useful places based on GPS</p></div></div>
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="5" aria-label="Enlarge Emergency Support screen"><img src="assets/heritagewalk/emergency.webp" alt="Emergency Support screen displaying an emergency phone contact and location sharing" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>06 / MY AREA</span><h3>Emergency support</h3><p>Verified contacts and location sharing</p></div></div>
+        <div class="case-screen-card" role="listitem" data-reveal><button type="button" class="case-screen-image" data-screenshot="6" aria-label="Enlarge About screen"><img src="assets/heritagewalk/about.webp" alt="About HeritageWalk screen describing its purpose and features" loading="lazy" width="390" height="840"><span aria-hidden="true">↗ Enlarge</span></button><div class="case-screen-meta"><span>07 / APP OVERVIEW</span><h3>About the app</h3><p>Project-wide screen</p></div></div>
+      </div>
+      <p class="case-gallery-note">Screens 03–06 illustrate my assigned feature areas and are shown as team-implemented app screens. I contributed requirements analysis, Figma/wireframes, and testing—not Flutter coding. The Digital Guide image displays a demo-only audio control.</p>
+    </div>
+  </section>
+  <section class="case-section case-validation-section" id="validation">
+    <div class="container">
+      <div class="case-section-heading" data-reveal><div><div class="case-kicker">05 / TESTING &amp; INSIGHTS</div><h2>The evidence <em>matters.</em></h2></div><p>Functional success and usability are different. The team evaluated both—and the findings point to the next design improvements.</p></div>
+      <div class="case-validation-grid">
+        <div class="case-validation-lead" data-reveal><div class="case-score">22<span>/22</span></div><h3>Functional test cases passed</h3><p>The group report records all 22 defined functional tests as passed. This supports the tested workflows, but does not imply that the experience was free of usability issues.</p><span>Source: Final HCI report, §8.2</span></div>
+        <div class="case-findings" data-reveal><div class="finding-topline">USABILITY QUESTIONNAIRE / 10 RESPONSES</div><h3>What respondents told us</h3>
+          <div class="finding-row"><div class="finding-row-head"><span>Navigation / current location</span><strong>5/10</strong></div><div class="finding-track"><div style="width:50%"></div></div><small>Reported completing UT06 independently</small></div>
+          <div class="finding-row"><div class="finding-row-head"><span>Facilities / safety access</span><strong>6/10</strong></div><div class="finding-track"><div style="width:60%"></div></div><small>Reported completing UT07 independently</small></div>
+          <div class="finding-row"><div class="finding-row-head"><span>Tour itinerary creation</span><strong>2/10</strong></div><div class="finding-track"><div style="width:20%"></div></div><small>Reported completing UT04 independently</small></div>
+          <div class="finding-caveat">Questionnaire results are self-reported from 10 submissions, not directly observed task completions. The report does not independently verify unique respondents or completion times.</div>
+        </div>
+      </div>
+      <div class="case-next-improvements" data-reveal><div><div class="case-kicker">THE ANALYST'S NEXT STEP</div><h3>Insights → improvement priorities</h3></div><div class="case-improvement-items"><div><span>01</span><p>Make nearby facilities and safety features easier to discover.</p></div><div><span>02</span><p>Clarify route controls, location indicators, and map interactions.</p></div><div><span>03</span><p>Make important actions and itinerary creation more straightforward.</p></div></div><p class="case-improvement-caveat">These are proposals identified from feedback; the supplied report does not verify that the changes were implemented or retested.</p></div>
+    </div>
+  </section>
+  <section class="case-section case-reflection-section" id="reflection"><div class="container case-reflection-inner" data-reveal><div><div class="case-kicker">06 / WHAT I LEARNED</div><h2>Good analysis begins<br>with <em>real people.</em></h2></div><div><p>HeritageWalk gave me practical experience in requirements analysis, Figma/wireframe design, and functional/usability testing. I learned to connect user research to explicit requirements, translate those needs into understandable user flows, and analyze evidence to guide improvements.</p><p>It also reinforced the value of distinguishing working functionality from an intuitive user experience—a lesson I want to carry into future Business Analyst projects.</p><a href="https://github.com/semini24/HCI_Y3S2_HeritageWalk_mobileapp" target="_blank" rel="noopener noreferrer" class="button case-button-primary">Explore project repository ↗</a></div></div></section>
+  <section class="case-bottom-cta"><div class="container"><div class="case-bottom-card"><div><span>KEEP EXPLORING</span><h2>More than code.<br><em>A way of thinking.</em></h2></div><a href="index.html#work" class="button case-button-primary">See all projects ↗</a></div></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-row"><a href="index.html" class="footer-brand">Semini<span>.</span></a><span>HeritageWalk case study · Student project · 2026</span><a href="#case-main">Back to top ↑</a></div></footer>
+<dialog class="case-lightbox" id="screensLightbox" aria-label="HeritageWalk screenshot viewer"><div class="case-lightbox-inner"><button type="button" class="case-lightbox-close" id="lightboxClose" aria-label="Close image viewer">✕</button><button type="button" class="case-lightbox-arrow" id="lightboxPrev" aria-label="Previous screenshot">‹</button><figure><img id="lightboxImage" src="assets/heritagewalk/navigation.webp" alt=""><figcaption id="lightboxCaption"></figcaption></figure><button type="button" class="case-lightbox-arrow" id="lightboxNext" aria-label="Next screenshot">›</button></div></dialog>
+</body>
+</html>
